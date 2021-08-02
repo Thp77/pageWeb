@@ -1,0 +1,90 @@
+    body {
+        font-size: 18px;
+        font-family: 'Bai Jamjuree', sans-serif;
+    }
+    
+    h1.h2 {
+        font-weight: 500;
+        color: hsl(210, 10%, 33%);
+    }
+    
+    p {
+        font-weight: 600;
+        color: grey;
+    }
+    
+    #slot1 {
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+    }
+    
+    .item {
+        padding-top: 60px;
+        margin: auto;
+        width: 50%;
+        text-align: center;
+    }
+    
+    button {
+        margin: 10px auto;
+        height: 40px;
+        width: 200px;
+        border: 1px solid;
+        border-radius: 28px;
+        padding: 0 15px;
+        color: #fff;
+    }
+    
+    .ios {
+        background-color: hsl(171, 66%, 44%);
+        border-color: hsl(171, 66%, 44%);
+    }
+    
+    .mac {
+        background-color: hsl(233, 100%, 69%);
+        border-color: hsl(233, 100%, 69%);
+    }
+    
+    .box,
+    .tools,
+    .compagnie {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 0 50px;
+        margin: auto;
+        width: 90%;
+    }
+    
+    .computer {
+        margin: auto;
+        width: 70%;
+    }
+    
+    .recherche-1,
+    .recherche-2,
+    .recherche-3 {
+        margin: auto;
+        width: 80%;
+    }
+    
+    .liste {
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width: 80%;
+    }
+    
+    footer {
+        text-align: center;
+        align-items: none;
+        color: white;
+    }
+    
+    .list1,
+    .list2 {
+        display: flex;
+        flex-direction: column;
+    }
